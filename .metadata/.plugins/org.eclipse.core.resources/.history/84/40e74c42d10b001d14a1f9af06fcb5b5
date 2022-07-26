@@ -1,0 +1,22 @@
+package Practice_Problem;
+
+public class ll {
+	private Node head;
+	private Node tail;
+	public int size;
+	ll(){
+		this.size = 0;
+	}
+	Node{
+		int value;
+		Node next;
+		Node(value){
+			this.value = value;
+		}
+		Node(value, Node.next){
+			this.value = value;
+			this.Node = next;
+		}
+	}
+
+}
